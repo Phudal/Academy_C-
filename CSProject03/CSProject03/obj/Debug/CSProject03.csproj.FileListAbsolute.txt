@@ -1,0 +1,7 @@
+C:\Users\SBSGAME\Desktop\홍요섭\CSProject03\CSProject03\bin\Debug\CSProject03.exe.config
+C:\Users\SBSGAME\Desktop\홍요섭\CSProject03\CSProject03\bin\Debug\CSProject03.exe
+C:\Users\SBSGAME\Desktop\홍요섭\CSProject03\CSProject03\bin\Debug\CSProject03.pdb
+C:\Users\SBSGAME\Desktop\홍요섭\CSProject03\CSProject03\obj\Debug\CSProject03.csprojAssemblyReference.cache
+C:\Users\SBSGAME\Desktop\홍요섭\CSProject03\CSProject03\obj\Debug\CSProject03.csproj.CoreCompileInputs.cache
+C:\Users\SBSGAME\Desktop\홍요섭\CSProject03\CSProject03\obj\Debug\CSProject03.exe
+C:\Users\SBSGAME\Desktop\홍요섭\CSProject03\CSProject03\obj\Debug\CSProject03.pdb

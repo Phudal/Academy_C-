@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F96905DD-96BB-4473-B572-3E28424AFE3F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CSProject07</RootNamespace>
+    <AssemblyName>CSProject07</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="메서드\01메서드.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="메서드\02메서드.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="메서드\03메서드.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="메서드\04메서드.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="메서드\05메서드.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="명명된_매개변수\01매개변수.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="선택적_매개변수\선택적_매개변수.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="오버로딩\01오버로딩.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="로컬함수\01로컬함수.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
