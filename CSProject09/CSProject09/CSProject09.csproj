@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F96905DD-96BB-4473-B572-3E28424AFE3F}</ProjectGuid>
+    <ProjectGuid>{91E494B5-5DC3-4DFF-866C-029B11A64C33}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSProject07</RootNamespace>
-    <AssemblyName>CSProject07</AssemblyName>
+    <RootNamespace>CSProject09</RootNamespace>
+    <AssemblyName>CSProject09</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -36,46 +36,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="메서드\01메서드.cs" />
+    <None Include="01클래스.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="메서드\02메서드.cs" />
+    <None Include="02클래스.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="메서드\03메서드.cs" />
+    <None Include="03클래스.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="메서드\04메서드.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="메서드\05메서드.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="명명된_매개변수\01매개변수.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="선택적_매개변수\선택적_매개변수.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="오버로딩\01오버로딩.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="로컬함수\01로컬함수.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="참조에의한_매개변수_전달\01RefOut.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="참조에의한_매개변수_전달\02RefOut.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="참조에의한_매개변수_전달\03RefOut.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="참조에의한_매개변수_전달\04RefOut.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="참조에의한_매개변수_전달\05RefOut.cs" />
+    <Compile Include="04클래스.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
