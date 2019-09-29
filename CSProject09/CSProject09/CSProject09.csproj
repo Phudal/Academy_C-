@@ -36,16 +36,44 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="01클래스.cs" />
+    <None Include="클래스\01클래스.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="02클래스.cs" />
+    <None Include="클래스\02클래스.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="03클래스.cs" />
+    <None Include="클래스\03클래스.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="04클래스.cs" />
+    <None Include="클래스\04클래스.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="생성자_소멸자\생성자_소멸자.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="생성자_소멸자\this생성자.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="01static\01static.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="01static\02static.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="객체복사\01객체복사.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="객체복사\02객체복사.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="분할클래스\01분할클래스.cs" />
+    <None Include="접근한정자\01접근한정자.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="접근한정자\02접근한정자.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="접근한정자\03접근한정자.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
