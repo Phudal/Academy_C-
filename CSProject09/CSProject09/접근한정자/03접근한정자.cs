@@ -76,17 +76,20 @@ class Character
         string tempName = Console.ReadLine();
         SetterName(tempName);
 
-        if (Name != "핑크겅듀")
-        int tempLevel;
+        int tempLevel = 10;
+        if (Name != "핑크겅듀")    
         {
             Console.Write("캐릭터의 레벨은? ");
             tempLevel = int.Parse(Console.ReadLine());
         }       
         SetterLevel(tempLevel);
 
+        string tempWork = null;
         if (Name != "핑크겅듀")
+        {
             Console.Write("캐릭터의 직업은? ");
-        string tempWork = Console.ReadLine();
+            tempWork = Console.ReadLine();
+        }
         SetterWork(tempWork);
     }
 }
