@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{91E494B5-5DC3-4DFF-866C-029B11A64C33}</ProjectGuid>
+    <ProjectGuid>{D3FA4637-C6BC-43B7-A1C8-2687C1630C6D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSProject09</RootNamespace>
-    <AssemblyName>CSProject09</AssemblyName>
+    <RootNamespace>CSProject10</RootNamespace>
+    <AssemblyName>CSProject10</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -36,47 +36,31 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="클래스\01클래스.cs" />
+    <None Include="01구조체\01구조체.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="클래스\02클래스.cs" />
+    <None Include="01구조체\02구조체.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="클래스\03클래스.cs" />
+    <None Include="01튜플\01튜플.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="클래스\04클래스.cs" />
+    <None Include="01튜플\02튜플.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="생성자_소멸자\생성자_소멸자.cs" />
+    <None Include="01튜플\03튜플.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="생성자_소멸자\this생성자.cs" />
+    <None Include="01난수\01난수.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="01static\01static.cs" />
+    <None Include="01난수\02난수.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="01static\02static.cs" />
+    <None Include="01난수\03난수.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="객체복사\01객체복사.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="객체복사\02객체복사.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="분할클래스\01분할클래스.cs" />
-    <None Include="접근한정자\01접근한정자.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="접근한정자\02접근한정자.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="접근한정자\03접근한정자.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="중첩클래스\01중첩클래스.cs" />
+    <Compile Include="01난수\04난수.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
