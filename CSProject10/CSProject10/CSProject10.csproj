@@ -60,7 +60,37 @@
     <None Include="01난수\03난수.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="01난수\04난수.cs" />
+    <None Include="01난수\04난수.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="01배열\02배열.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="01배열\01배열.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="01배열\03배열.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="01배열\04배열.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="01배열\05배열.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="01가변인자매개변수\01가변인자매개변수.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="01가변인자매개변수\02가변인자매개변수.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="01다차원배열\01다차원배열.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="01다차원배열\02다차원배열.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="01다차원배열\03다차원배열.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
