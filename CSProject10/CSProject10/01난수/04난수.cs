@@ -22,13 +22,13 @@ class Weapon
        
         Console.WriteLine("소비될 강화석: " + Spend_Enhance_stone());
         Console.WriteLine("소비될 골드: " + Spend_Enhance_gold());
-        if (Inventory.Get_enhance_stone() == 0)
+        if (Inventory.Get_enhance_stone() - Spend_Enhance_stone() < 0)
         {
             Console.WriteLine("강화석이" + (Spend_Enhance_stone()
                 - Inventory.Get_enhance_stone()) + "개 부족합니다.");
             return false;
         }
-        if (Inventory.Get_gold() == 0)
+        if (Inventory.Get_gold() - Spend_Enhance_gold() < 0) 
         {
             Console.WriteLine("골드가" + (Spend_Enhance_gold() 
                 - Inventory.Get_gold()) + "만큼 부족합니다. ");
@@ -57,14 +57,7 @@ class Weapon
         {
             if (question())
             {
-                Console.Clear();
-                Console.Write("         뿌?");
-                System.Threading.Thread.Sleep(250);
-                Console.Write("슝!");
-                System.Threading.Thread.Sleep(250);
-                Console.Write("빠?");
-                System.Threading.Thread.Sleep(250);
-                Console.WriteLine("슝!");
+                Delay();
 
                 Set_percent(new Random().Next(1, 101));
                 if (Enhance_percent() >= Get_percent())
@@ -152,6 +145,17 @@ class Weapon
         Console.WriteLine("\n장비 이름: " + Get_weapon_name() +"\n");
         Console.WriteLine("장비 강화 수치: " + Get_enhanced());
         Console.WriteLine("현재 남은 강화석: " + Inventory.Get_enhance_stone());       
+    }
+    public void Delay()
+    {
+        Console.Clear();
+        Console.Write("         뿌?");
+        System.Threading.Thread.Sleep(250);
+        Console.Write("슝!");
+        System.Threading.Thread.Sleep(250);
+        Console.Write("빠?");
+        System.Threading.Thread.Sleep(250);
+        Console.WriteLine("슝!");
     }
 }
 
