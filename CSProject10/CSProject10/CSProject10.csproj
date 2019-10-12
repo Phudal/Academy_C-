@@ -90,7 +90,10 @@
     <None Include="01다차원배열\02다차원배열.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="01다차원배열\03다차원배열.cs" />
+    <None Include="01다차원배열\03다차원배열.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="01가변배열\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
