@@ -46,7 +46,12 @@
     <None Include="01상속\01상속.cs" />
     <None Include="01상속\02상속.cs" />
     <None Include="01상속\03상속.cs" />
-    <Compile Include="01상속\04상속.cs" />
+    <None Include="01상속\04상속.cs" />
+    <None Include="01상속\05상속.cs" />
+    <None Include="02오버라이딩\01오버라이딩.cs" />
+    <None Include="02오버라이딩\02오버라이딩.cs" />
+    <None Include="03인터페이스\01인터페이스.cs" />
+    <Compile Include="03인터페이스\02인터페이스.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
